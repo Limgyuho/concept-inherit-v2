@@ -1,0 +1,15 @@
+body{
+    /*모든 엘리먼트는 아래의 속성의 기본값이 모두 inherit이다*/
+    color:red;
+    font-family:"돋움";
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 10px;
+    
+    border: 10px solid green;
+}
+section{
+    /*이럴경우 section은 body의 border 속성을 따라한다*/
+    border: inherit;
+}
